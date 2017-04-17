@@ -605,7 +605,7 @@
 /* Box */
 
 	.box {
-		background: #ffffff;
+		background: rgba(255, 255, 255, 0.85);
 		color: #062A5A;
 		padding: 2em;
 	}
