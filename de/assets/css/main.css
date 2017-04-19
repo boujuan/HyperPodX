@@ -1060,6 +1060,7 @@ height: 100%;
 	/* Floating footer*/
 
 	.floating-footer {
+		font-size: 80%;
 		color:#F8A214;
 		text-align: center;
 		text-indent: 5px;
