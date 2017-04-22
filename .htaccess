@@ -22,16 +22,20 @@ RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^/?$ "http\:\/\/de\.hyperpodx\.com" [NC,L,R=301] #If the conditions before were true, goes to german version, else goes to english version
 RewriteRule ^/?$ "http\:\/\/en\.hyperpodx\.com" [NC,L,R=301]
 
-<FilesMatch "\.(jpg|jpeg|png|gif|ico)$">
-Header set Cache-Control "public, max-age=1500000"
+<FilesMatch "\.(jpg|jpeg|png|gif|ico|svg)$">
+Header set Cache-Control "public, max-age=2000000"
 </FilesMatch>
 
-<FilesMatch "\.(css|js)$">
-Header set Cache-Control "public, max-age=86400"
+<FilesMatch "\.(js)$">
+Header set Cache-Control "public, max-age=691200"
+</FilesMatch>
+
+<FilesMatch "\.(css)$">
+Header set Cache-Control "public, max-age=345600"
 </FilesMatch>
 
 <FilesMatch "\.(html|htm)$">
-Header set Cache-Control "public, max-age=7200"
+Header set Cache-Control "public, max-age=86400"
 </FilesMatch>
 
 <Files .htaccess>
