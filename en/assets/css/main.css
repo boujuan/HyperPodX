@@ -241,7 +241,7 @@ ol.default li{padding-left:0.25em;}
 header{margin-bottom:1em;}
 header p{display:block;margin:1em 0 0 0;padding:0 0 0.5em 0;}
 footer{margin-top:2em;}
-.floating-footer{font-size:80%;color:#F8A214;text-align:center;text-indent:5px;line-height:1.5;background:rgba(6, 42, 90, 0.70);position:fixed;left:50px;right:50px;top:55px;height:auto;z-index:99;}
+.floating-footer{font-size:80%;color:#F8A214;text-align:center;text-indent:5px;line-height:1.5;background:rgba(6, 42, 90, 0.70);position:fixed;left:50px;right:50px;top:65px;height:auto;z-index:99;}
 table{width:100%;}
 table.default{width:100%;}
 table.default tbody tr:nth-child(2n+2){background:rgba(229, 230, 231, 0.5);}

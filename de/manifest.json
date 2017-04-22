@@ -1,0 +1,20 @@
+{
+    "name": "HyperPod X",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png?v=47rA3jBWxj",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png?v=47rA3jBWxj",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#2b5797",
+    "background_color": "#2b5797",
+    "start_url": "http://hyperpodx.com",
+    "display": "standalone",
+    "orientation": "portrait"
+}

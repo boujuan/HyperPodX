@@ -26,7 +26,11 @@ RewriteRule ^/?$ "http\:\/\/en\.hyperpodx\.com" [NC,L,R=301]
 Header set Cache-Control "public, max-age=2000000"
 </FilesMatch>
 
-<FilesMatch "\.(css|js)$">
+<FilesMatch "\.(js)$">
+Header set Cache-Control "public, max-age=691200"
+</FilesMatch>
+
+<FilesMatch "\.(css)$">
 Header set Cache-Control "public, max-age=345600"
 </FilesMatch>
 
